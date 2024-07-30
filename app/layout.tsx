@@ -20,6 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id">
+      <head>
+      <meta name="google-site-verification" content="axNmUpn2RwwQizgq4MVCSJIX94FB3gDYpMIVUplhumM" />
+      </head>
       <body className={inter.className}>
         <NavabarComponent />
         <main className="pt-12">{children}</main>
