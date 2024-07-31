@@ -1,6 +1,5 @@
 import {
   Footer,
-  FooterBrand,
   FooterCopyright,
   FooterDivider,
   FooterIcon,
@@ -22,15 +21,15 @@ const FooterCustom = () => {
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
             <span className="self-center whitespace-nowrap text-2xl font-semibold ">
-              SMPN2 CICALENGKA
+              SMPN 2 CICALENGKA
             </span>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div>
               <FooterTitle title="Profile" />
               <FooterLinkGroup col>
-                <FooterLink href="#">About SMPN 2 CICALENGKA</FooterLink>
-                <FooterLink href="#">About Kepala Sekolah</FooterLink>
+                <FooterLink href="#">Mengenai SMPN 2 CICALENGKA</FooterLink>
+                <FooterLink href="#">Mengenai Kepala Sekolah</FooterLink>
               </FooterLinkGroup>
             </div>
             <div>
@@ -44,14 +43,21 @@ const FooterCustom = () => {
             </div>
             <div>
               <FooterTitle title="Usefull Link" />
+              
+
+
+
+
+
+
               <FooterLinkGroup col>
-                <FooterLink href="#">About</FooterLink>
-                <FooterLink href="#">Staff</FooterLink>
-                <FooterLink href="#">Visi & Misi</FooterLink>
-                <FooterLink href="#">Berita</FooterLink>
-                <FooterLink href="#">Eskul</FooterLink>
-                <FooterLink href="#">Alumni</FooterLink>
-                <FooterLink href="#">Struktur</FooterLink>
+                <FooterLink href="#home">Beranda</FooterLink>
+                <FooterLink href="#about">Mengenai</FooterLink>
+                <FooterLink href="#kurikulum">Kurikulum</FooterLink>
+                <FooterLink href="#visi">Visi & Misi</FooterLink>
+                <FooterLink href="#berita">Berita</FooterLink>
+                <FooterLink href="#eskul">Ekstrakurikuler</FooterLink>
+                <FooterLink href="#alumni">Alumni</FooterLink>
               </FooterLinkGroup>
             </div>
           </div>

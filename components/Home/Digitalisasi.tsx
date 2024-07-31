@@ -9,7 +9,7 @@ import { FaLuggageCart } from 'react-icons/fa'
 
 const Digitalisasi = () => {
   return (
-    <section className="flex w-full justify-center pt-20" id="skills">
+    <section className="flex w-full justify-center md:pt-20" id="kurikulum">
         <Container className="">
           <div className="flex justify-between gap-5 flex-col lg:flex-row w-full text-center">
             <div className="flex flex-col w-full items-center justify-center">

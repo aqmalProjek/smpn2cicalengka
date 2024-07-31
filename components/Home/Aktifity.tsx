@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Aktifity = () => {
   return (
-    <section className="mt-10">
+    <section className="mt-10" id="berita">
       <Container className="box-border ">
         <div className="grid md:grid-cols-2 gap-1 p-5">
           <div className="h-full ">
@@ -43,7 +43,7 @@ const Aktifity = () => {
             </Card>
           </div>
           <div className="mt-5 md:mt-0">
-            <h3 className="text-2xl tracking-wide font-bold mt-5 md:mt-0">
+            <h3 className="text-2xl tracking-wide font-bold mt-16 md:mt-0">
               Berita Lainya
             </h3>
             <div className="grid gap-3">

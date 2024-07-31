@@ -21,7 +21,7 @@ export default function Home() {
       <Aktifity />
       <section
         className="flex flex-col w-full justify-center pt-20"
-        id="social"
+        id="eskul"
       >
         <div className="flex justify-between gap-5 flex-col lg:flex-row w-full text-center">
           <div className="flex flex-col w-full items-center justify-center">
@@ -41,7 +41,7 @@ export default function Home() {
           </div>
         </Container>
       </section>
-      <section>
+      <section id="alumni">
         <Container className="flex flex-col w-full pt-20">
         <div className="flex justify-between gap-5 flex-col lg:flex-row w-full text-center">
             <div className="flex flex-col w-full items-center justify-center">

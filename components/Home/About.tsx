@@ -5,7 +5,7 @@ import { Button } from "flowbite-react";
 
 const About = () => {
   return (
-    <section className="w-full flex min-h-56  md:pt-12 pt-6 items-center mb-96 lg:mb-0" id="about">
+    <section className="w-full flex min-h-56  md:pt-12 pt-6 items-center md:mb-96 lg:mb-0" id="about">
       <Container className="bg-white relative">
         <div className="md:w-[75%] lg:w-[800px] w-full bg-white relative z-0 ">
           <Image
@@ -18,7 +18,7 @@ const About = () => {
             style={{ width: "100%" }}
           />
         </div>
-        <div className="absolute z-10 md:top-5 right-0 box-border p-10 bg-white md:max-w-[50%] h-full flex flex-col gap-3 justify-between">
+        <div className="md:absolute z-10 md:top-5 right-0 box-border p-10 bg-white md:max-w-[50%] h-full flex flex-col gap-3 justify-between">
           <div className="h-full flex flex-col gap-3 w-full">
             <span className="text-sm tracking-wide text-gray-500 dark:text-gray-400">
               SEKILAS MENGENAI SMPN 2 CICALENGKA

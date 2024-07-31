@@ -26,19 +26,19 @@ export default function NavabarComponent() {
         <NavbarLink className="text-base text-white" href="#about" as={Link}>
           About
         </NavbarLink>
-        <NavbarLink className="text-base text-white" href="#about" as={Link}>
-          Bagian
-        </NavbarLink>
-        <NavbarLink className="text-base text-white" href="#skills" as={Link}>
-          Visi & Misi
+        <NavbarLink className="text-base text-white" href="#kurikulum" as={Link}>
+          Kurikulum
         </NavbarLink>
         <NavbarLink className="text-base text-white" href="#visi" as={Link}>
+          Visi & Misi
+        </NavbarLink>
+        <NavbarLink className="text-base text-white" href="#berita" as={Link}>
           Berita
         </NavbarLink>
-        <NavbarLink className="text-base text-white" href="#social" as={Link}>
+        <NavbarLink className="text-base text-white" href="#eskul" as={Link}>
           Eskul
         </NavbarLink>
-        <NavbarLink className="text-base text-white" href="#social" as={Link}>
+        <NavbarLink className="text-base text-white" href="#alumni" as={Link}>
           Alumni
         </NavbarLink>
       </NavbarCollapse>
