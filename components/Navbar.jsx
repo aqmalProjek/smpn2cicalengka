@@ -20,7 +20,7 @@ export default function NavabarComponent() {
       </NavbarBrand>
       <NavbarToggle />
       <NavbarCollapse className="">
-        <NavbarLink className="text-base text-white" href="#home" as={Link}>
+        <NavbarLink className="text-base text-white" href="/" as={Link}>
           Beranda
         </NavbarLink>
         <NavbarLink className="text-base text-white" href="#about" as={Link}>

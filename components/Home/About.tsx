@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../Container";
 import Image from "next/image";
 import { Button } from "flowbite-react";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -27,13 +28,13 @@ const About = () => {
               KEPALA SEKOLAH
             </h2>
             <p className="font-normal md:text-base text-sm text-gray-700 dark:text-gray-400">
-            Assalamu’alaikum Wr. Wb
-            Puji syukur bagi Allah Atas Anugrah yang diberikan kepada kita sehingga masih ada kesempatan bagi kita untuk berbuat yang terbaik. Hanya karena kesempatan dan izin Allah kita dapat melakukan perjuangan untuk mempersiapkan generasi bangsa yang berkualitas melalui dunia pendidikan. Kami keluarga besar SMP Negeri 1 Bandung mengucapkan selamat datang di web ini dan selamat bergabung dengan SMP Negeri 1 Bandung ini.
+            Sampurasun. Puji syukur kami panjatkan ke hadirat Tuhan Yang Maha Esa atas karunia dan hidayah-Nya, sehingga kita semua dapat membaktikan segala hal yang kita miliki untuk kemajuan dunia pendidikan. Apapun bentuk dan sumbangsih yang kita berikan, jika dilandasi niat yang tulus tanpa memandang imbalan, akan menghasilkan mahakarya agung sebagai bekal kita dan generasi setelah kita. Pendidikan adalah harga mati untuk menjadi pondasi bangsa dan negara dalam menghadapi perkembangan zaman, seiring dengan penguasaan teknologi untuk dimanfaatkan sebaik mungkin sehingga menciptakan iklim kondusif dalam ranah keilmuan. Dengan konsep yang kontekstual dan efektif, kami mengejawantahkan nilai-nilai pendidikan yang tertuang dalam visi misi SMP Negeri 2 Cicalengka sebagai panduan hukum dalam menjabarkan tujuan hakiki pendidikan. Kami menyambut baik terbitnya Website smpn2cicalengka.com ini dan berharap dapat memberikan peningkatan layanan pendidikan kepada siswa, orangtua, dan masyarakat pada umumnya.
             </p>
           </div>
           <Button
             color="warning"
             className="lg:max-w-[40%] max-w-[60%] rounded-none text-sm md:text-base"
+            as={Link} href="/kepsek"
           >
             Selengkapnya &gt;
           </Button>

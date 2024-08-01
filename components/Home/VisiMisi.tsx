@@ -15,9 +15,9 @@ const VisiMisi = () => {
           <div>
             <h3 className="text-sm tracking-wide font-bold">VISI</h3>
             <p className="md:text-base text-sm pl-5 mt-5">
-              Membentuk Insan Demokratis, Akhlakulkarimah, disertai Ilmu
-              Teknologi danBerkarakter INDAH ITB
+            Sebagai Sekolah yang mengemban amanat pembangunan sumber daya manusia melalui ikhtiar bersama untuk meningkatkan mutu pendidikan, ilmu pengetahuan, dan teknologi, maka visi SMP Negeri 2 Cicalengka adalah: :
             </p>
+            <q className="md:text-base text-sm pl-5 mt-5">Berbudaya, disiplin, berprestasi yang berwawasan teknologi.</q>
             <h3 className="text-sm tracking-wide font-bold">SEJARAH</h3>
             <p className="md:text-base text-sm pl-5 mt-5">
               SMP Negeri 2 Cicalengka didirikan pada tanggal 29 Desember 2010

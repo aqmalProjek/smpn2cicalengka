@@ -7,6 +7,7 @@ import {
   FooterLinkGroup,
   FooterTitle,
 } from "flowbite-react";
+import Link from "next/link";
 import {
   BsDribbble,
   BsFacebook,
@@ -28,8 +29,8 @@ const FooterCustom = () => {
             <div>
               <FooterTitle title="Profile" />
               <FooterLinkGroup col>
-                <FooterLink href="#">Mengenai SMPN 2 CICALENGKA</FooterLink>
-                <FooterLink href="#">Mengenai Kepala Sekolah</FooterLink>
+                <FooterLink href="/sejarah" as={Link}>Mengenai SMPN 2 CICALENGKA</FooterLink>
+                <FooterLink href="/kepsek" as={Link}>Mengenai Kepala Sekolah</FooterLink>
               </FooterLinkGroup>
             </div>
             <div>

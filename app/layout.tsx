@@ -8,9 +8,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "SMPN 2 CICALENGKA",
-  description: "SMPN 2 Cicalengka atau sekolah menengah pertama 2 Cicalengka, adalah salah satu smp yang ada di cicalengka yang terletak di desa margaasih. atau alamat lengkap nya adalah SMPN 2 CICALENGKA Kp. Sumelap, Margaasih, Kec. Cicalengka, Kab. Bandung Prov. Jawa Barat",
+  description: "SMPN 2 Cicalengka atau sekolah menengah pertama 2 Cicalengka, SMPN 2 Cicalengka adalah salah satu smp yang ada di cicalengka yang terletak di desa margaasih. atau alamat lengkap nya adalah SMPN 2 CICALENGKA Kp. Sumelap, Margaasih, Kec. Cicalengka, Kab. Bandung Prov. Jawa Barat",
   creator: "Muchamad Aqmal Hidayat",
   authors: [{name: "Muchamad Aqmal Hidayat", url: "https://www.linkedin.com/in/muchamad-aqmal-7840332b5/"}],
+  keywords: ["SMPN 2 CICALENGKA", "sekolah menengah pertama 2 Cicalengka", "WEBSITE SMPN 2 CICALENGKA", "smpn2 cicalengka","smpn 2 cicalengka", "sekolah negri di cicalengka", "sekolah negri di margaasih cicalengka"]
 };
 
 export default function RootLayout({

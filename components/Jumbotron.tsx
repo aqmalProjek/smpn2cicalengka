@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Container from "./Container";
 import { Button } from "flowbite-react";
+import Link from "next/link";
 
 const Jumbotron = () => {
   return (
@@ -35,7 +36,7 @@ const Jumbotron = () => {
             </p>
           </div>
           <div className="flex max-w-[70%] gap-3">
-            <Button color="blue">Tentang Kami</Button>
+            <Button color="blue" as={Link} href="/sejarah">Tentang Kami</Button>
             <Button color="blue">LMS</Button>
           </div>
         </Container>
