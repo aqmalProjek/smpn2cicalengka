@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       url: "https://www.linkedin.com/in/muchamad-aqmal-7840332b5/",
     },
   ],
+  icons: "/logo.png"
 };
 
 const page = () => {

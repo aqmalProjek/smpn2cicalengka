@@ -29,7 +29,7 @@ const Aktifity = () => {
               )}
             >
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Juara 1 Paskibra
+                Andika Putra Juara 3 Tingkat Kabupaten Bandung
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolorem quos voluptates eos illum officiis vitae laborum sunt corporis. Tempore?
